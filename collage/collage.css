@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html {
+    background-color : black;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.header {
+    font-family: 'Lora', serif;
+    font-size : 3vw;
+    color : white;
+}
+
+
+/*general css*/
+p.textContent {
+    transition : 1s;
+    opacity:0%;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size : 1.5vw;
+    color:white;
+    position : absolute;
+    top : 3%;
+    left : 5%;
+    margin-right : 5%;
+    margin-bottom : 3%;
+
+}
+
+
+img.images {
+    transition : 1s;
+    width : 100%;
+    height : 100%;
+    border-radius : 10%;
+}
+
+
+
+/* First Picture - Boy Scouts / Philmont */
+div.boyScouts {
+    float : left; /*makes images "read" left to right"*/
+    transition : 1s; /*transition time for text and background change*/
+    width : 66%; /*width of the image section*/
+    padding:0; 
+    margin : 0; /* leaves little room between edge of screen and images*/
+    margin-right : 1%; /*gives small black border between this image and the next*/
+    position : relative; /*no clue what this does but it makes it work so in it goes*/
+    background-color : navy; /*blue color for when hovered over*/
+    border-radius:10%; /*ooh fancy round edges*/
+}
+
+/* straightens out the edges when hovered over*/
+div.boyScouts:hover {
+    border-radius : 0%; /* no more round edges :( */
+}
+
+/*when hovered over controls the current image*/
+div.boyScouts:hover img.images {
+    transition : 1s; /*transition time for image opacity*/
+    opacity: 50%; /*image gets darker*/
+    border-radius : 0%; /*so border does not bleed over into background*/
+}
+
+/*when hovered over controls text over image*/
+div.boyScouts:hover p.textContent {
+    opacity:100%; /*fully visible*/
+    transition : 1s; /*transition time*/
+}
+
+
+
+
+
+
+
+/*Second picture - Casey dog */
+div.dog {
+    float : left; /* see above */
+    transition : 1s;
+    width : 32%;
+    margin : 0;
+    padding : 0;
+    position : relative;
+    background-color : rgba(255, 217, 0, 0.421); /*It's gold now, what a coincidence carmel colors are blue and gold*/
+    border-radius:10%;
+}
+
+div.dog:hover {
+    border-radius : 0%;
+}
+
+div.dog:hover img.images {
+    transition : 1s;
+    opacity: 50%;
+    border-radius : 0%;
+}
+div.dog:hover p.textContent {
+    opacity:100%;
+    transition : 1s;
+}
+
+
+
+
+
+/*third picture - techhounds robot*/
+div.robot {
+    transform : translateY(-72%); /*the rest of these are pretty wonkey how i got them to be in the right place it just works okay dont ask questions*/
+    float : left;
+    transition : 1s;
+    width : 35%;
+    height : 10%;
+    margin : 0;
+    margin-right : 1%;
+    padding : 0;
+    position : relative;
+    background-color : navy;
+    border-radius:10%;
+}
+
+div.robot:hover {
+    border-radius : 0%;
+}
+
+div.robot:hover img.images {
+    transition : 1s;
+    opacity: 50%;
+    border-radius : 0%;
+}
+div.robot:hover p.textContent {
+    opacity:100%;
+    transition : 1s;
+}
+
+
+
+
+
+/* fourth picture - NC train / family*/
+div.family {
+    transform : translateY(-37%);
+    float : left;
+    transition : 1s;
+    width : 30%;
+    margin : 0;
+    margin-right : 1%;
+    padding : 0;
+    position : relative;
+    background-color : rgba(255, 217, 0, 0.421);
+    border-radius:10%;
+}
+
+div.family:hover {
+    border-radius : 0%;
+}
+
+div.family:hover img.images {
+    transition : 1s;
+    opacity: 50%;
+    border-radius : 0%;
+}
+div.family:hover p.textContent {
+    opacity:100%;
+    transition : 1s;
+}
+
+
+
+
+
+/*picture 5 - me*/
+div.me {
+    transform : translateY(2%); /*for SOME reason this one i had to move down rather than up idk man css makes absolutely no sense*/
+    float : left;
+    transition : 1s;
+    width : 30%;
+    margin : 0;
+    padding : 0;
+    position : relative;
+    background-color : navy;
+    border-radius:10%;
+}
+
+div.me:hover {
+    border-radius : 0%;
+}
+
+div.me:hover img.images {
+    transition : 1s;
+    opacity: 50%;
+    border-radius : 0%;
+}
+div.me:hover p.textContent {
+    opacity:100%;
+    transition : 1s;
+}
+
+
+
+/*picture 6 - piano*/
+div.piano {
+    transform : translateY(-196%);
+    float : left;
+    transition : 1s;
+    width : 35%;
+    margin : 0;
+    padding : 0;
+    position : relative;
+    background-color : rgba(255, 217, 0, 0.421);
+    border-radius:10%;
+}
+
+div.piano:hover {
+    border-radius : 0%;
+}
+
+div.piano:hover img.images {
+    transition : 1s;
+    opacity: 50%;
+    border-radius : 0%;
+}
+div.piano:hover p.textContent {
+    opacity:100%;
+    transition : 1s;
+}
+
+
+
+/*picture 7 - bike*/
+div.bike {
+    transform : translateY(-125%);
+    float : left;
+    transition : 1s;
+    width : 66%;
+    margin : 0;
+    margin-right : 1%;
+    padding : 0;
+    position : relative;
+    background-color : navy;
+    border-radius:10%;
+}
+
+div.bike:hover {
+    border-radius : 0%;
+}
+
+div.bike:hover img.images {
+    transition : 1s;
+    opacity: 50%;
+    border-radius : 0%;
+}
+div.bike:hover p.textContent {
+    opacity:100%;
+    transition : 1s;
+}
+
+
+
+
+/*picture 8 - Computer Building Club*/
+div.CBC {
+    transform : translateY(-140%); 
+    float : left;
+    transition : 1s;
+    width : 32%;
+    margin : 0;
+    padding : 0;
+    position : relative;
+    background-color : rgba(255, 217, 0, 0.421);
+    border-radius:10%;
+}
+
+div.CBC:hover {
+    border-radius : 0%;
+}
+
+div.CBC:hover img.images {
+    transition : 1s;
+    opacity: 50%;
+    border-radius : 0%;
+}
+div.CBC:hover p.textContent {
+    opacity:100%;
+    transition : 1s;
+}

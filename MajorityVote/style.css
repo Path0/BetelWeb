@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    background-color : #262626;
+}
+
+p.header {
+    font-family : 'Poppins', sans-serif;
+    font-size : 50px;
+    text-align : center;
+    color : #e3e3e3;
+}
+
+p.introStatement {
+    font-family : 'Poppins', serif;
+    padding-left : 20%;
+    padding-right : 20%;
+    color : #e3e3e3;
+    text-align : center;
+}
+
+p.secondaryHeader {
+    font-family : 'Poppins', serif;
+    font-size : 37px;
+    text-align : center;
+    color : #e3e3e3;
+}
+
+p.credit {
+    font-family : 'Poppins', serif;
+    font-size : 14px;
+    text-align : left;
+    padding-left : 5%;
+    color : #e3e3e3;
+}
+
+pre.booleanSimp {
+    font-family : 'Poppins', serif;
+    padding-left : 20%;
+    padding-right : 20%;
+    color : #e3e3e3;
+    text-align : center;
+}
+hr {
+    padding-left : 33%;
+    padding-right : 33%;
+    color : #e3e3e3;
+}
+
+hr.ending {
+    color : #a3a3a3;
+    height : 1%;
+}
+
+table {
+    color : #e3e3e3;
+    font-family : 'Poppins', serif;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+
+th {
+    border-top : 1px solid #e3e3e3;
+    border-bottom : 1px solid #e3e3e3;
+}
+
+img.breadboard {
+    width : 50%;
+    margin-left : 25%;
+    margin-right : 25%;
+    border-radius : 10%;
+    border : solid #e3e3e3 3px;
+}
+
+img.unsimplified {
+    width : 50%;
+    margin-left : 25%;
+    margin-right : 25%;
+    border-radius : 5%;
+    border : solid #e3e3e3 3px;
+}
+

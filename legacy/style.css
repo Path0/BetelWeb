@@ -1,0 +1,145 @@
+@font-face {
+	font-family : "mainFont";
+	src : url("rec/Fonts/Cinzel-Regular.ttf") format("truetype");
+}
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* ACTUAL CSS */
+body {
+	
+	/*background : linear-gradient(to bottom, #333333 0%, #7777AA 100%);*/
+	background-image : url("rec/bg.png");
+	background-repeat : no-repeat;
+	background-size : 100%;
+	background-attachment : fixed;
+}
+p,a,pre {
+	color : black;
+}
+div.background {
+	background-image : url("rec/logoDarkIshBlue.svg");
+	background-attachment: fixed;
+	background-size : 205%;
+	background-repeat : no-repeat;
+	
+	
+	
+	
+}
+
+/* MAIN CONTENT */
+
+/*header*/
+p.bruh {
+	font-size : 200px; 
+	font-family : "mainFont", sans-serif;
+	text-align : center;
+	width : 100%;
+}
+
+/*huge ass line break*/
+pre.spacer {
+	line-height : 100px;
+}
+
+/*for countdown event*/
+p.countdownEvent {
+	font-size : 120px;
+	font-family : 'Times New Roman', Times, serif;
+	text-align : center;
+	width : 100%;
+}
+
+/*smaller header*/
+p.secondHeader {
+	font-size : 75px;
+	font-family : 'Times New Roman', Times, serif;
+	text-align : center;
+	width : 100%;
+}
+
+/*main paragraph content*/
+p.content {
+	font-family : "Courier New", Courier, serif;
+	width : 66%;
+	padding-left : 17%;
+	padding-right : 17%;
+	font-size : 20px;
+	text-align : center;
+}
+
+div.paragraph {
+	
+	background-color : rgba(255,255,255,0.3);
+}
+
+/* NAVIGATION BAR THINGS */
+
+/*whole list*/
+ul {
+	list-style-type : none;
+	width : 100%;
+	height : 50px;
+	padding : 0;
+	margin : 0;
+}
+
+/*each link*/
+li {
+	width : 10%; /* default, static.js changes this to be whatever it needs */
+	height : 50px;
+	background : linear-gradient(to bottom,#2d1d4d 0%, #333333 100%);
+	font-size : 30px;
+	color : #f3f3f3;
+	text-decoration : none;
+	float : right;
+	text-align : center;
+	line-height : 50px;
+	transition-duration : 0.5s;
+}
+
+/*pretty colors wow*/
+li:hover {
+	
+	background : linear-gradient(to bottom,rgb(34, 9, 110) 0%,#333333 100%);
+	height : 65px;
+	line-height : 65px;
+}
+
+/*link*/    /*probably redundant but eh*/
+a.NavBar {
+	
+	font-size : 30px;
+	color : black;
+	text-decoration : none;
+	
+	
+}
+
+html.small , body.small {
+	margin: 0; height : 100%; 
+	/*overflow : hidden;*/
+}
+
+

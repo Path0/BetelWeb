@@ -1,0 +1,45 @@
+/*
+STYLESHEET FOR JET-ENGINE WEBPAGE
+*/
+
+/*font imports*/
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+
+
+
+
+
+
+
+
+h1.head {
+	text-align : center;
+	width : 50%;
+	padding-left : 25%;
+	padding-right : 25%;
+	padding-top : 285px;
+	padding-bottom : 1000px;
+}
+
+p.introduction {
+	font-size : 20px;
+	padding-left : 50px;
+	padding-right : 50px;
+	line-height : 150%;
+	word-wrap:  normal;
+	font-family: 'Baskervville', serif;
+}
+
+p.most {
+	padding-left : 30%;
+	padding-right : 30%;
+}
+
+h2 {
+	text-align : center;
+	width : 50%;
+	padding-left : 25%;
+	padding-top : 30px;
+	padding-bottom : 30px;
+	padding-right : 25%;
+}
