@@ -1,13 +1,13 @@
 
 
 ctdn();
-document.getElementById("event").innerHTML = "summer in";
+document.getElementById("event").innerHTML = "winter break in";
 window.setInterval(ctdn, 1000);
 
 function ctdn() {
     var now = new Date(Date.now());
     var to = new Date();
-    to.setFullYear(2022,4-1,7);
+    to.setFullYear(2022,12-1,18);
     to.setHours(0);
     to.setMinutes(0);
     to.setSeconds(0);
